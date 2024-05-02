@@ -12,4 +12,4 @@ def index():
         Message = "High CPU or Memory Detected, scale up!!!"
     return f"CPU Utilization: {cpu_percent} and Memory Utlilization: {mem_percent}"
 if __name__=='__main__':
-    app.run(debug=True, host = '0.0.0.0')
+    app.run(debug=False, host = '0.0.0.0')
